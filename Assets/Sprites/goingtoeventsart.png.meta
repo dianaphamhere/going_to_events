@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f65fb87a5a2e34a4495e798369e02091
-timeCreated: 1479153690
+timeCreated: 1479419129
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,20 @@ TextureImporter:
     21300010: guy
     21300012: lady
     21300014: building_inside
+    21300016: player_body
+    21300018: outside_building
+    21300020: cat_tail_2
+    21300022: goingtoeventsart_8
+    21300024: cat_head
+    21300026: cat_tail_1
+    21300028: cat_body
+    21300030: cat_leg_left
+    21300032: cat_leg_right
+    21300034: cat_arm_right
+    21300036: cat_arm_left
+    21300038: cat_tree
+    21300040: cat_block
+    21300042: cat_toy
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -81,13 +95,13 @@ TextureImporter:
         y: 2292
         width: 122
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.19226049, y: 0.866945}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: building_outside
+      name: outside_building
       rect:
         serializedVersion: 2
         x: 678
@@ -108,7 +122,7 @@ TextureImporter:
         width: 4
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -116,12 +130,12 @@ TextureImporter:
       name: player_right_leg
       rect:
         serializedVersion: 2
-        x: 299
+        x: 300
         y: 2093
         width: 88
         height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.46839696, y: 0.89080054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -152,13 +166,156 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: building_inside
+      name: cat_tail_2
       rect:
         serializedVersion: 2
-        x: 703
-        y: 44
-        width: 1864
-        height: 1194
+        x: 136
+        y: 1287
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: goingtoeventsart_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1327
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_head
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1268
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.47255525, y: 0.11985636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_tail_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1235
+        width: 79
+        height: 43
+      alignment: 9
+      pivot: {x: 0.81682885, y: 0.20895882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_body
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1166
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_leg_left
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1097
+        width: 41
+        height: 52
+      alignment: 9
+      pivot: {x: 0.76051366, y: 0.7640921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_leg_right
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1084
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.26158142, y: 0.84200525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_arm_right
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1091
+        width: 28
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5544957, y: 0.7878994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_arm_left
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1096
+        width: 38
+        height: 46
+      alignment: 9
+      pivot: {x: 0.28756472, y: 0.7795543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_tree
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 661
+        width: 186
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_block
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 907
+        width: 160
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cat_toy
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 726
+        width: 112
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
